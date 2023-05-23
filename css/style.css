@@ -4,6 +4,9 @@
  * updated: 05/23/2023
  */
 
+* {
+  box-sizing: border-box;
+}
 /********** for Mobile **********/
 body,
 header,
@@ -89,6 +92,9 @@ main {
 /* list style */
 ul, ol {
   margin-left: 2em;
+}
+li {
+  margin-bottom: 0.5em;
 }
 
 /* table style */
