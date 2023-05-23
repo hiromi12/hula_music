@@ -1,0 +1,123 @@
+/* 
+ * created: 05/23/2023
+ * version: 0.1
+ * updated: 05/23/2023
+ */
+
+/********** for Mobile **********/
+body,
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li, 
+table,
+tr,
+th,
+td {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+body {
+  width: 100%;
+  background-image: url("../images/back_img_01.jpg");
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 18px;
+}
+p,
+li,
+td {
+  font-size: 16px;
+}
+.center {
+  text-align: center;
+}
+
+/* header */
+header {
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+}
+header h1 {
+  padding-top: 15px;
+}
+
+/* main */
+main {
+  display: block;
+  max-width: 431px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigation {
+  padding: 0.75em 0;
+  margin-left: 1em;
+  font-weight: bold;
+  font-size: 16px;
+}
+.navigation a {
+  border-bottom: 1px solid #333;
+}
+.container {
+  margin: 0 1em;
+}
+.sub-container {
+  margin-bottom: 1em;
+}
+
+/* list style */
+ul, ol {
+  margin-left: 2em;
+}
+
+/* table style */
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: solid 1px #333;
+  padding: 5px 1em;
+}
+
+/* Player */
+.title {
+  font-size: 22px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+.comp {
+  text-align: 14px;
+  margin-bottom: 2px;
+}
+.lyric {
+  font-size: 18px;
+  padding: 16px;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+}
+footer p {
+  font-size: 0.8em;
+  font-weight: 400;
+}
