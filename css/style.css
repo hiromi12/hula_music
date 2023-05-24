@@ -4,6 +4,11 @@
  * updated: 05/24/2023
  */
 
+.demo {
+  background-color: red;
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
