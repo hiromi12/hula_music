@@ -125,8 +125,13 @@ audio {
   width: 315px;
 }
 .lyric {
-  font-size: 18px;
   padding: 10px 0;
+}
+br {
+  content: "";
+  margin: 3.25em;
+  display: block;
+  font-size: 24%;
 }
 
 /* footer */
