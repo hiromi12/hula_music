@@ -42,7 +42,7 @@ h1 {
   font-size: 22px;
 }
 h2 {
-  font-size: 18px;
+  font-size: 20px;
 }
 p,
 li,
@@ -79,8 +79,13 @@ main {
 .navigation a {
   border-bottom: 1px solid #000;
 }
+.b-nav {
+  padding: 0 0 1em;
+  margin-top: 5px;
+  margin-left: 1em;
+}
 .container {
-  margin: 0 1em;
+  margin: 0 0.75em;
 }
 .sub-container {
   margin-bottom: 1em;
@@ -116,9 +121,12 @@ th, td {
   text-align: 14px;
   margin-bottom: 2px;
 }
+audio {
+  width: 315px;
+}
 .lyric {
   font-size: 18px;
-  padding: 16px;
+  padding: 10px 0;
 }
 
 /* footer */
